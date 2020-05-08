@@ -1,3 +1,33 @@
 body, html, #container {
     height: 100%;
 }
+#magic-image{
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+  
+
+#body{
+    background-image: url('https://lvportals.lv/wwwraksti//TEMAS/2017/NOVEMBRIS/BILDES_LIELAS/LET_8187777.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#footer{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#body_content{
+    background-image: url('https://lvportals.lv/wwwraksti//TEMAS/2017/NOVEMBRIS/BILDES_LIELAS/LET_8187777.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#body_content{
+    background:transparent
+}
+    
