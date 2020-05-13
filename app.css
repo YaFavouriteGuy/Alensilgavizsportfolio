@@ -10,19 +10,16 @@ body, html, #container {
   
 
 #body{
-    background-image: url('');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 #footer{
-    background-image: url('');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 #body_content{
-    background-image: url('');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -68,14 +65,17 @@ body, html, #container {
     width: 200px;
     height: 200px;
     position: relative;
-    right: -410px;;
+    right: -800px;;
     top: 160px;;
 }
 #info1{
     position: relative;
-    left: 340px;;
+    left: 730px;;
     top: 200px;;
     width: relative;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(255, 157, 28, 0.527);
 }
 p.thick {
     font-weight: bold;
@@ -135,8 +135,30 @@ p.thick {
     font-weight: bold;
 }
 
-.btn-primary {
+#button {
+    background-color: rgb(255, 153, 0);
+    border: circle;
     color: rgb(0, 0, 0);
-    background-color: #ffa600;
-    border-color: #ffa600;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+
+#button1:hover {
+    background-color: rgb(255, 221, 147);
+    color: rgb(255, 176, 57);
+}
+
+#button:hover{
+    transform: scale(1.12);
+    border-radius: 5%;
+
+
 }
