@@ -10,7 +10,7 @@ body, html, #container {
   
 
 #body{
-    background-image: url('https://lvportals.lv/wwwraksti//TEMAS/2017/NOVEMBRIS/BILDES_LIELAS/LET_8187777.JPG');
+    background-image: url('');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -22,7 +22,7 @@ body, html, #container {
     background-size: 100% 100%;
 }
 #body_content{
-    background-image: url('https://lvportals.lv/wwwraksti//TEMAS/2017/NOVEMBRIS/BILDES_LIELAS/LET_8187777.JPG');
+    background-image: url('');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -30,4 +30,113 @@ body, html, #container {
 #body_content{
     background:transparent
 }
-    
+
+.bilde1{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 10px;;
+
+
+}
+
+.bilde2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: -200px;;
+    top: -10px;; 
+}
+
+.bilde3{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 450px;;
+    top: 220px;;
+}
+
+#SSS{
+    position: relative;
+    left: 210px;;
+    top: -200px;;
+    width: relative;
+    font-weight: bold;
+    background-color: rgba(44, 136, 44, 0.527);
+}
+#personal_photo{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: -410px;;
+    top: 160px;;
+}
+#info1{
+    position: relative;
+    left: 340px;;
+    top: 200px;;
+    width: relative;
+}
+p.thick {
+    font-weight: bold;
+  }
+
+#SSS1{
+    position: relative;
+    top: -200px;;
+    right: -420px;;
+    width: relative;
+    font-weight: bold;
+    background-color: rgba(44, 136, 44, 0.527);
+}
+
+#SSS2{
+    position: relative;
+    top: 20px;;
+    right: 230px;;
+    width: relative;
+    font-weight: bold;
+    background-color: rgba(44, 136, 44, 0.527);
+}
+
+.poga1 {
+    background-color: #FF9E00;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+.poga2 {
+    background-color: #FFB843;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.poga3 {
+    background-color: #FFC86E; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: #ffa600;
+    border-color: #ffa600;
+}
